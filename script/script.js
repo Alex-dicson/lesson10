@@ -43,5 +43,6 @@ document.addEventListener('DOMContentLoaded', () => {
     newArticle.textContent = 'Глава 8: За пределами ES6';
     console.log(newArticle);
     titles[5].insertBefore(newArticle, itemBook6[9]);
-    //itemBook6[9].insertAdjacentHTML('beforebegin', newArticle);
+    let adv = document.querySelector('.adv');
+    adv.style.display = "none";
 });
